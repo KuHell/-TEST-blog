@@ -11,6 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
+        <Image
+          src="/images/226D224955CDB88818.png"
+          alt="korea"
+          width={166}
+          height={166}
+        />
         <h1 className="title">
           Read this Post{' '}
           <Link href="/posts/first-post">
