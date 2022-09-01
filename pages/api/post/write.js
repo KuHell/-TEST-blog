@@ -13,6 +13,7 @@ export default async function handler(req, res) {
     res.status(500).json({ message: `create failed ${error}` })
     console.log('id: ', id)
     console.log('title: ', title)
+    console.log('title: ', title)
     // console.log('date: ', date)
     console.log('content: ', content)
   }
